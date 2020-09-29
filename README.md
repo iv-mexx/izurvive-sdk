@@ -23,6 +23,6 @@ Use `IzurviveTransformation` to transform between these coordinate systems:
   // Transform the iZurvive Coordinate (-50, 30) to DayZ Coordinates on Livonia
   const izurviveCoordinate = new Coordinate(-50, 30)
   const transformation = IzurviveTransformation.livonia()
-  const dayzPoint = izurviveCoordinateToDayzPoint(izurviveCoordinate)
+  const dayzPoint = transformation.izurviveCoordinateToDayzPoint(izurviveCoordinate)
 ```
 
