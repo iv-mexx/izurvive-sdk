@@ -1,0 +1,17 @@
+{
+  "name": "izurvive-sdk",
+  "version": "1.0.0",
+  "description": "Utils to integrate with iZurvive",
+  "main": "index.js",
+  "author": "Innovaptor OG <team@innovaptor.com> (https://innovaptor.com",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.1"
+  }
+}
